@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
 <!DOCTYPE resources [
-    <!ENTITY appName "Linphone">
+    <!ENTITY appName "AKD Network">
 ]>
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
@@ -349,10 +349,10 @@
 
     <!-- Assistant -->
     <string name="assistant_welcome_title">Welcome</string>
-    <string name="assistant_welcome_desc">This assistant will help you configure and use your SIP account.</string>
+    <string name="assistant_welcome_desc">This assistant will help you configure and use your account.</string>
     <string name="assistant_create_account">Create account</string>
     <string name="assistant_login_linphone">Use &appName; account</string>
-    <string name="assistant_login_generic">Use SIP account</string>
+    <string name="assistant_login_generic">Use your account</string>
     <string name="assistant_remote_provisioning">Fetch remote configuration</string>
     <string name="assistant_ec_calibration">Echo canceler calibration in progress</string>
     <string name="assistant_phone_number_info_title">What will my phone number be used for?</string>
