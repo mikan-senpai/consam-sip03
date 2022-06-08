@@ -143,13 +143,13 @@
                     linphone:listener="@{viewModel.hideRoomsRemovedProxiesListener}"
                     linphone:checked="@={viewModel.hideRoomsRemovedProxies}"/>
 
-                <include
-                    layout="@layout/settings_widget_text"
-                    linphone:title="@{@string/chat_settings_file_sharing_url_title}"
-                    linphone:subtitle="@{@string/chat_settings_file_sharing_url_summary}"
-                    linphone:listener="@{viewModel.fileSharingUrlListener}"
-                    linphone:defaultValue="@{viewModel.fileSharingUrl}"
-                    linphone:inputType="@{InputType.TYPE_TEXT_VARIATION_URI}"/>
+<!--                <include-->
+<!--                    layout="@layout/settings_widget_text"-->
+<!--                    linphone:title="@{@string/chat_settings_file_sharing_url_title}"-->
+<!--                    linphone:subtitle="@{@string/chat_settings_file_sharing_url_summary}"-->
+<!--                    linphone:listener="@{viewModel.fileSharingUrlListener}"-->
+<!--                    linphone:defaultValue="@{viewModel.fileSharingUrl}"-->
+<!--                    linphone:inputType="@{InputType.TYPE_TEXT_VARIATION_URI}"/>-->
 
                 <include
                     layout="@layout/settings_widget_basic"
