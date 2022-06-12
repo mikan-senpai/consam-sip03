@@ -173,3 +173,4 @@ In order to submit a patch for inclusion in linphone's source code:
 
 The goal of this agreement to grant us peaceful exercise of our rights on the linphone source code, while not losing your rights on your contribution.
 # sip-03
+# consam-sip03
