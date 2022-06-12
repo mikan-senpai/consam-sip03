@@ -70,15 +70,15 @@
                     android:layout_weight="0.2">
 
                     <ImageView
-                        android:onClick="@{sipContactsToggleClickListener}"
-                        android:enabled="@{!viewModel.sipContactsSelected}"
-                        android:contentDescription="@string/content_description_show_sip_contacts"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="?attr/button_background_drawable"
+                        android:contentDescription="@string/content_description_show_sip_contacts"
+                        android:enabled="@{!viewModel.sipContactsSelected}"
                         android:gravity="center"
+                        android:onClick="@{sipContactsToggleClickListener}"
                         android:padding="15dp"
-                        android:src="@drawable/contacts_sip" />
+                        android:src="@drawable/contact" />
 
                     <View
                         android:visibility="@{viewModel.sipContactsSelected ? View.VISIBLE : View.GONE}"

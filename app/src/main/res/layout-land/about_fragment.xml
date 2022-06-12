@@ -96,32 +96,7 @@
                     android:contentDescription="@null"
                     android:src="@drawable/linphone_app_name_logo" />
 
-                <TextView
-                    android:textSize="13sp"
-                    android:textColor="?accentColor"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="@string/app_description" />
 
-                <TextView
-                    style="@style/about_version_font"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:paddingTop="20dp"
-                    android:textColorLink="?attr/secondaryTextColor"
-                    android:text="@{String.format(@string/about_version, viewModel.appVersion)}" />
-
-                <TextView
-                    style="@style/about_version_font"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textColorLink="?attr/secondaryTextColor"
-                    android:text="@{String.format(@string/about_liblinphone_sdk_version, viewModel.sdkVersion)}" />
 
             </LinearLayout>
 

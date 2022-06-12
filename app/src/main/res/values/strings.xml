@@ -63,7 +63,7 @@
     <string name="transport_tls">TLS</string>
 
     <!-- Launch screen -->
-    <string name="app_description">AKD NETWORK PHONE</string>
+    <string name="app_description">CONSAM TELECOM PHONE</string>
 
     <!-- Status fragment -->
     <string name="status_connected">Connected</string>
@@ -362,7 +362,7 @@
     <string name="assistant_privacy_policy_link" translatable="false">https://www.linphone.org/privacy-policy</string>
     <string name="assistant_general_terms">terms of use</string>
     <string name="assistant_privacy_policy">privacy policy</string>
-    <string name="assistant_read_and_agree_terms">I accept terms and conditions of AKD Network</string>
+    <string name="assistant_read_and_agree_terms">I accept terms and conditions of CONSAM Telecom</string>
     <string name="assistant_generic_account_warning">Some features require a &appName; account, such as group messaging or ephemeral messaging.\n\nThese features are hidden when you register with a third party SIP account.\n\nTo enable it in a commercial project, please contact us.</string>
     <string name="assistant_generic_account_warning_contact_link" translatable="false"></string>
     <string name="assistant_generic_account_warning_continue_button_text">I understand</string>

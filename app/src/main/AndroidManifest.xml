@@ -40,7 +40,7 @@
         android:name=".LinphoneApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher_foreground"
-        android:label="AKD Phone"
+        android:label="CONSAM Telecom"
         android:roundIcon="@mipmap/ic_launcher_foreground"
         android:extractNativeLibs="${extractNativeLibs}"
         android:theme="@style/AppTheme"
