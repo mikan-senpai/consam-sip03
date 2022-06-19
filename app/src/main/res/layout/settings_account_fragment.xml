@@ -247,10 +247,11 @@
 
                 <include
                     layout="@layout/settings_widget_text"
-                    linphone:title="@{@string/account_setting_audio_video_conference_factory_address}"
-                    linphone:listener="@{viewModel.audioVideoConferenceFactoryUriListener}"
+                    android:layout_height="68dp"
                     linphone:defaultValue="@{viewModel.audioVideoConferenceFactoryUri}"
-                    linphone:inputType="@{InputType.TYPE_CLASS_TEXT}"/>
+                    linphone:inputType="@{InputType.TYPE_CLASS_TEXT}"
+                    linphone:listener="@{viewModel.audioVideoConferenceFactoryUriListener}"
+                    linphone:title="@{@string/account_setting_audio_video_conference_factory_address}" />
 
             </LinearLayout>
 

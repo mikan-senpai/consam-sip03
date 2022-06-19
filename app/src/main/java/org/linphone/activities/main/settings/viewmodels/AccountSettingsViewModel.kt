@@ -266,8 +266,8 @@ class AccountSettingsViewModel(val account: Account) : GenericSettingsViewModel(
             account.params = params
         }
     }
-    val pushNotification = MutableLiveData<Boolean>()
-    val pushNotificationsAvailable = MutableLiveData<Boolean>()
+    val pushNotification = MutableLiveData<Boolean>(true)
+    val pushNotificationsAvailable = MutableLiveData<Boolean>(true)
 
     val transportListener = object : SettingListenerStub() {
         override fun onListValueChanged(position: Int) {

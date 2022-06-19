@@ -64,20 +64,20 @@ class CoreService : CoreService() {
         coreContext.notificationsManager.stopCallForeground()
     }
 
-    override fun onTaskRemoved(rootIntent: Intent?) {
-        if (!corePreferences.keepServiceAlive) {
-            if (coreContext.core.isInBackground) {
-                Log.i("[Service] Task removed, stopping Core")
-                coreContext.stop()
-            } else {
-                Log.w("[Service] Task removed but Core in not in background, skipping")
-            }
-        } else {
-            Log.i("[Service] Task removed but we were asked to keep the service alive, so doing nothing")
-        }
-
-        super.onTaskRemoved(rootIntent)
-    }
+    //    override fun onTaskRemoved(rootIntent: Intent?) {
+    //        if (!corePreferences.keepServiceAlive) {
+    //            if (coreContext.core.isInBackground) {
+    //                Log.i("[Service] Task removed, stopping Core")
+    //                coreContext.stop()
+    //            } else {
+    //                Log.w("[Service] Task removed but Core in not in background, skipping")
+    //            }
+    //        } else {
+    //            Log.i("[Service] Task removed but we were asked to keep the service alive, so doing nothing")
+    //        }
+    //
+    //        super.onTaskRemoved(rootIntent)
+    //    }
 
     override fun onDestroy() {
         Log.i("[Service] Stopping")
