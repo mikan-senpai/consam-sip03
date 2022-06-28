@@ -99,7 +99,7 @@ android {
             outputFileName = "linphone-android-${variant.buildType.name}-${project.version}.apk"
         }
 
-        var enableFirebaseService = "false"
+        var enableFirebaseService = "true"
         if (firebaseEnabled) {
             enableFirebaseService = "true"
         }
