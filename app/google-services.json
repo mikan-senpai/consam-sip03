@@ -33,6 +33,25 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358115586270:android:065c1ecc9bd1d4b0cf524f",
+        "android_client_info": {
+          "package_name": "org.CONSAM.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358115586270-46jq159r7ojfcaqlumm6mft2t9h40pse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9BSMa7XtmkytldfAoUMj0ERB_QTUE-ak"
+        }
+      ]
     }
   ],
   "configuration_version": "1"

@@ -8,6 +8,7 @@ buildscript {
         }
         maven {
             url "https://www.jitpack.io"
+
         } // for com.github.chrisbanes:PhotoView
     }
     dependencies {
